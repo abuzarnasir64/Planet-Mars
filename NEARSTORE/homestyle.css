@@ -1,0 +1,358 @@
+
+*{margin: 0px;
+padding: 0px;}
+nav{display: flex;
+width: 100%;}
+.search{height: 7vh;
+width: 40%;
+border-right: none;
+border: 3px solid  #ff4e5b ;
+margin-left: 10%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: medium;
+font-weight: 400;
+margin-top: 1.5%;}
+.sbtn{height: 7vh;
+    border: none;
+    background-color:  #ff4e5b;
+margin-top: 1.5%;}
+.user {margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    width: 35px;
+margin-top: 1.5%;
+margin-right: 3%;}
+.wish{margin-top: 1.5%;}
+.cart{width: 34px;
+height: 34px;
+margin-top: 1.5%;
+margin-left: 4%;}
+/* .wish{margin-top: 2%;}  */
+nav .logo{color:  #ff4e5b;
+    margin-left: 5%;
+    margin-top: 1.5%; 
+    
+font-size: xx-large;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+font-weight: 400;}
+.navul{display: flex;
+list-style: none;
+background-color: #ff4e5b;
+color: white;
+align-items: center;
+padding: 1%;
+margin-top: 1%;
+width: 100%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: larger;
+font-weight: 400;}
+li{margin-left: 3%;
+border-right: 2px solid grey;
+padding-right: 1%;}
+}
+.cata{position: relative;
+display: inline-block ;}
+.hamburger{display: none;}
+ .cata:hover .catahover{display: block;}
+ .catahover a:hover{display: block;}
+.catahover{display: none;
+     position: absolute;
+     z-index: 1;
+color: white;
+background-color: #ff4e5b;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: large;
+font-weight: 300;
+width: 11%;
+height: 50vh;
+margin-top: 58.7vh;
+margin-left: 1%;
+list-style: none;
+border: 2px solid gray;
+border-top: none;}
+.hero{
+    position: relative;
+}
+.heroimg{width: 100%;
+    height: 77vh;
+position: absolute;}
+.oneshoe{position: absolute;
+z-index: 1;
+margin-left: 55%;
+width: 37%;
+margin-top: 1%;}
+.herodiv{position: absolute;
+    margin-left: 15%;
+    margin-top: 2%;
+z-index: 1;}
+.bannertext{color: #ff4e5b;}
+.mens_text{color: white;
+margin-top: 1%;
+margin-bottom: 1%;}
+.lorem_text{color: whitesmoke;}
+.buybt{background-color: #ff4e5b;
+color: white;
+border: none;
+padding: 5%;
+margin-top: 6%;
+margin-right: 3%;
+font-size: large;
+width: 30%;}
+.see{background-color: #ff4e5b;
+    color: white;
+    border: none;
+    padding: 1%;
+    margin-bottom: 3%;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+font-weight: 400;
+    width: 20%;
+
+}
+.see:hover {
+    box-shadow: 0px 1px 21px #ff4e5b;
+    background-color: white;
+    border: 3px solid #ff4e5b;
+    color: #ff4e5b;
+    overflow: none;
+  }
+/* .buybt:hover{color: #ff4e5b;
+background-color: white;}
+.morebt:hover{background-color: #ff4e5b;
+color: white;} */
+.morebt{background-color: white;
+    border: none;
+    font-size: large;
+color: #ff4e5b;
+padding: 5%;
+width: 30%;}
+.buybt:hover{  border: 3px solid #ff4e5b;
+    box-shadow: 0px 1px 21px #ff4e5b;
+    overflow: hidden;
+}
+.morebt:hover{ 
+    box-shadow: 0px 1px 21px #ff4e5b;
+    overflow: hidden;
+
+}
+.banner{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: larger;
+font-weight: 400;
+padding: 5%;}
+.sec2{margin-top: 45%;
+margin-left: 5%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: larger;
+font-weight: 400;}
+.shoe2:hover {padding: 6%;}
+.shoe3:hover {padding: 6%;}
+.shoe2{box-shadow: 2px 1px 13px 4px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 2px 1px 13px 4px rgba(0,0,0,0.54);
+    -moz-box-shadow: 2px 1px 13px 4px rgba(0,0,0,0.54);
+width:30%;
+position: absolute;
+z-index: 2;
+background-color: white;
+height: 50vh;
+margin-left: 5%;
+margin-top: 5%;
+margin-bottom: 2%;
+padding: 5%;}
+.star1{width: 35%;
+/* margin-top: 25%;
+margin-left: 30%; */
+margin-top: 2%;
+margin-left: 27%;
+}
+.o{margin-top: 10%;
+margin-left: 30%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: larger;
+font-weight: 300;}
+.star2{width: 35%;
+margin-top: 2%;
+margin-left: 27%;
+
+    /* margin-top: 25%;
+    margin-left: 30%; */
+}
+    .shoe3{box-shadow: 2px 1px 13px 4px rgba(0,0,0,0.54);
+        -webkit-box-shadow: 2px 1px 13px 4px rgba(0,0,0,0.54);
+        -moz-box-shadow: 2px 1px 13px 4px rgba(0,0,0,0.54);
+        width:30%;
+        z-index: 1;
+margin-top: 15%;
+background-color: whitesmoke;
+margin-left: 45%;
+        height: 50vh;
+        margin-bottom: 2%;
+        position: relative;
+        padding: 5%;}
+    
+/* .hero{background-image: url();} */
+/* .sec2{margin-bottom: 10px;}
+.boot2{position: relative;}
+.boot1{position: absolute;
+margin-right: 5%;} */
+/* 
+.gallery_section {
+    width: 100%;
+    float: left;
+    background-color: #ff4e5b;
+    height: auto;
+}
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.best_text {
+    width: 100%;
+    float: left;
+    font-size: 14pt;
+    color: #000;
+    text-align: center;
+    margin-left: 0px;
+}
+.best_shoes {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    padding: 20px 20px 20px 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.shoes_icon {
+    width: 100%;
+    float: left;
+    text-align: center;
+    min-height: 220px;
+}
+.star_text {
+    width: 100%;
+    float: left;
+    
+}
+.collection{justify-content: space-between;}
+.col{margin-left: 4%;
+margin-right: 4%;} */
+.starr{width:100px;
+    margin-top: 3%;
+    margin-left: 22%;
+}
+.boxes{padding: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 35%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+background-color: white;}
+.box{background-color: #ff4e5b;
+display: flex;
+flex-direction: column;}
+.box1{display: flex;flex-direction: row;}
+.box2{display: flex;flex-direction: row;}
+.h{font-size: x-large;
+    color: #ff4e5b;
+    margin-top: 2%;
+margin-left: 32%;}
+.shoesimg{margin-top: 3%;
+margin-left: 10%;}
+ @media (max-width:452px) {
+  .hamburger{display: block;
+   margin-left: 40%;
+   margin-top: 2vh;
+}  
+.wish{display: none;}
+.cart{display: none;}
+.user{display: none;}
+.navsec ,.navul{display: none;}
+
+/*   
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  } */
+
+
+}
+@media(max-width:398px){
+    .navsec , .navul{
+        font-size: xx-small;
+        height: 7vh;
+        width: 100%;
+    }
+}
+@media (max-width:428px){
+    nav{width: 800px;}
+ 
+
+}
+@media (max-width:438px){
+    .hamburger{margin-bottom: 2%;}
+}
+@media(max-width:452px){
+
+}
+
+@media (max-width:664px){
+
+    .search{display: none;}
+    .sbtn{display: none;}
+    .user{margin-left: 20%;}
+}
+
+@media (max-width:530px){
+    .navul{font-size: large;}
+
+}
+@media (max-width:694px){
+    .navsec{width: 100%;}
+   .hero ,  .heroimg{width: 100%;}
+}
+    /* @media (max-width:704px){
+        .navul{font-size: x-large;} */
+}
+/* @media (max-width:732px){
+    .hero , .heroimg{}
+} */
+@media (max-width:744px){
+    .navul{font-size: larger;}
+}
+@media (max-width:940px) {
+    .cartbtn{display: none;}
+   .logbtn{display: none;}
+   .wishbtn{display: none;}
+   .cart{margin-top: 2%;}
+   .wish{margin-top: 2%;
+margin-left: 2%;
+margin-right: 2%;}
+   .user{margin-top: 2%;}
+
+}
+
+
+@media (max-width:1190px){
+
+}
