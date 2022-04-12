@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluclator</title>
+</head>
+<body>
+    <style>
+        .calucator{ border: 3px solid darkgoldenrod;
+            padding: 2%;
+            width: 40%;
+            height: 40vh;
+            border-radius: 7%;
+            background-color: wheat;}
+     .a{margin-left: 40%;
+        margin-top: 5%;
+           } 
+        button{
+                font-size: large;
+            border-radius: 15%;
+            border: 2px solid darkgoldenrod;
+                width: 77px;
+                height: 6.5vh;
+        }
+        input{
+            display: inline-block;
+            width: 100%;
+            height: 30px;
+            margin-bottom: 1%;
+            font-size: larger;
+            /* border: 2px solid darkgoldenrod; */
+        }
+        /* table{
+            border: 2px solid black;
+            padding: 2%;
+            border-radius: 7%;
+            background-color: wheat;
+        } */
+        h1{margin-left: 13%;
+            font-size: xx-large;
+        color: darkgoldenrod;}
+    </style>
+    <div class="a">
+        <h1>Caluclator</h1>
+        <div class="calucator">
+            <input type="text" id="screen" name="screen">
+          <table>
+              <tr>
+                  <td><button>(</button></td>
+                  <td><button>)</button></td>
+                  <td><button>C</button></td>
+                  <td><button>%</button></td>
+              </tr>
+              <tr>
+                  <td><button>7</button></td>
+                  <td><button>8</button></td>
+                  <td><button>9</button></td>
+                  <td><button>X</button></td>
+              </tr>
+              <tr>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button>-</button></td>
+            </tr>
+            <tr>
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button>+</button></td>
+            </tr>
+            <tr>
+                <td><button>0</button></td>
+                <td><button>.</button></td>
+                <td><button>/</button></td>
+                <td><button>=</button></td>
+            </tr>
+          </table>
+        </div>
+    </div>
+
+<script>
+
+let screen= document.getElementById('screen');
+buttons = document.querySelectorAll('button');
+let screenValue = '';
+for(item of buttons){
+    item.addEventListener('click', (e)=>{
+        buttonText = e.target.innerText;
+        console.log(buttonText);
+
+        if(buttonText=='X'){
+            buttonText = '*';
+             screenValue += buttonText;
+            screen.value = screenValue;
+        }
+       else if (buttonText =='C'){
+               screenValue = "";
+             screen.value = screenValue;
+ }
+ else if (buttonText =='='){
+    screen.value = eval(screenValue);
+ }
+ else{
+     screenValue += buttonText;
+     screen.value = screenValue
+ }
+
+    })
+}
+
+</script>
+
+
+</body>
+</html>
