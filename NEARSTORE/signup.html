@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+    <nav>
+        <h1 class="logo">NEARSTORE</h1>
+    <input class="search" placeholder="Search..." type="search">
+    <button class="sbtn" > <img class="simg"  src="search.png"></button>
+    <div class="user">
+      <img  href="#" class="userimg" src="user.png">
+    <button class="logbtn" style="border: none;background:none;"><b>Login/Register</b></button>
+    </div>
+    
+    <div class="cart">
+      <img  href="#" src="wish.png">
+      <button  class="wishbtn" style="border: none;background:none;"><b>Wishlist</b></button>
+    
+    </div>
+    
+    <div class="cart">
+      <img  href="#" class="cartimg" src="cart.png">
+      <button class="cartbtn" style="border: none;background:none;"><b>Cart</b></button>
+    
+    </div>
+    <img class="hamburger" style="width:32px;height:32px;" src="812847.png">
+    </div>
+      </nav>
+      
+    
+    <div class="secnav">
+      <ul class="navul">  
+       <li class="cata"> ▼ Catagories</li>
+       
+    <div class="catahover">
+      <a href="#">Electronic Devices</a>
+      <hr>
+      <a href="#"> Accessories</a>
+      <hr>
+    
+      <a href="#">TV & Applainces</a>
+      <hr>
+    
+      <a href="#">Health & Beauty</a>
+      <hr>
+      <a href="#">Home & Lifestyle</a>
+      <hr>
+      <a href="#">Groceries & Pets</a>
+      <hr>
+      <a href="#">Men's Fashion</a>
+      <hr>
+      <a href="#">Women's Fashion</a>
+      <hr>
+      <a href="#">Watches</a>
+      <hr>
+    </div>
+     
+        <li  href="#">Home</li>
+        <li  href="#">Deals</li>
+        <li  href="#">Flash Sale</li>
+        <li  href="#">Contact Us</li>
+        <li  href="#">About Us</li>
+    
+    
+      </ul>
+    </div>
+
+
+    <style>
+        .log{
+            background-color: #ff4e5b;
+            height: 55vh;
+            width: 50%;
+            margin-top: 5%;
+            margin-left: 20%;
+            color: white;
+            padding: 3%
+        }
+        .inp{
+          width: 70%;
+          height: 5vh;
+          margin-bottom: 3%;
+          margin-left: 8%;
+        }
+        h4{
+            margin-left: 8%;
+        }
+        .lo{
+        justify-content:center;
+     width: 20%;
+     height: 7vh;
+     font-size: x-large;
+     margin-left: 40%;
+     margin-top: 2%;
+     color: #ff4e5b;
+     background-color: white;
+     border: none;
+    }
+    </style>
+        
+        <div class="log">
+            <div class="data">
+    
+           <h4>Email Address</h4>     
+           <input class="inp" type="email" placeholder="Enter Email">
+            </div>
+            <div class="data">
+                <h4>Password</h4>
+                <input class="inp" type="text" placeholder="Password">
+            </div>
+            <div class="data">
+                <h4> Re-Enter Password</h4>
+                <input class="inp" type="text" placeholder="Enter Password Again">
+            </div>
+            <div class="data">
+                <h4>Password</h4>
+                <input class="inp" type="number" placeholder="Enter Your Number">
+            </div>
+          
+           <button class="lo">Signup</button>
+           <br>
+         <a href="#">Already have a account? Login here.</a>
+        </div>
+
+        
+<script>
+
+    $(document).ready(function(){
+      $(".cata").click(function(){
+        $(".catahover").toggle();
+      });
+    });
+    
+    
+    $(".hamburger").click(function(){
+      $(".navul").toggle();
+    });
+    </script>
+
+</body>
+</html>

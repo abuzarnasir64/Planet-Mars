@@ -6,15 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NEARSTORE</title>
   <link rel="stylesheet" href="homestyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="1.css" >
+	<link rel="stylesheet" type="text/css" href="2.css" >
+	<link rel="stylesheet" type="text/css" href="footer.css" > -->
 </head>
 <body>
-  <nav>
-    <h1 class="logo">NEARSTORE</h1>
-<input class="search" placeholder="Search..." type="search">
-<button class="sbtn" > <img class="simg"  src="search.png"></button>
+  <nav style="display: flex;">
+   <img style="width: 190px;margin-left: 10px;
+   padding: 5px;" src="logos.png">
+<!-- <input class="search" placeholder="Search..." type="search"> -->
+<section class="ws" style="border: 3px solid #ff4e5b; ">
+  <div><div class="bol" style="display: flex;">
+          
+    <select id="burr" class="form-select form-select-sm w-8  " aria-label=".form-select-lg example">
+        <option selected>All Catagories</option>
+        <option value="1">Fashion</option>
+        <option value="2">Foot Wear</option>
+        <option value="3">For Kids</option>
+      </select>
+<input type="text" placeholder="Search in..." style="color: black;background-color: white; border:none ; ">
+     
+</div>
+</div>
+</section>
+<button class="sbtn" > <img class="simg" style="width: 90%;" src="search_icon.png"></button>
 <div class="user">
-  <img  href="#" class="userimg" src="user.png">
-<button class="logbtn" style="border: none;background:none;"><b>Login/Register</b></button>
+  <img  class="userimg" src="user.png">
+
+<a href="re.html"><button class="logbtn"  style="border: none;background:none;"><b>Login/SignUp</b></button></a>
 </div>
 
 <div class="cart">
@@ -28,44 +48,42 @@
   <button class="cartbtn" style="border: none;background:none;"><b>Cart</b></button>
 
 </div>
-<img class="hamburger" style="width:32px;height:32px;" onclick="" src="812847.png">
+<img class="hamburger" style="width:32px;height:32px;" src="812847.png">
 </div>
   </nav>
   
-  <script>
-function()
 
-  </script>
 <div class="secnav">
   <ul class="navul">  
-   <li class="cata"> ▼ Catagories</li>
+   <li class="cata" > ▼ Browse Catagories</li>
    
 <div class="catahover">
-  <a>Electronic Devices</a>
+  <a style="text-decoration: none;color: white;"  href="#">Electronic Devices</a>
   <hr>
-  <a> Accessories</a>
-  <hr>
-
-  <a>TV & Applainces</a>
+  <a style="text-decoration: none;color: white;" href="#"> Accessories</a>
   <hr>
 
-  <a>Health & Beauty</a>
+  <a style="text-decoration: none;color: white;" href="#">TV & Applainces</a>
   <hr>
-  <a>Home & Lifestyle</a>
+
+  <a style="text-decoration: none;color: white;" href="#">Health & Beauty</a>
   <hr>
-  <a>Groceries & Pets</a>
+  <a style="text-decoration: none;color: white;" href="#">Home & Lifestyle</a>
   <hr>
-  <a>Men's Fashion</a>
+  <a style="text-decoration: none;color: white;" href="#">Groceries & Pets</a>
   <hr>
-  <a>Women's Fashion</a>
+  <a style="text-decoration: none;color: white;" href="#">Men's Fashion</a>
   <hr>
-  <a>Watches</a>
+  <a style="text-decoration: none;color: white;" href="#">Women's Fashion</a>
   <hr>
-</div> 
+  <a style="text-decoration: none;color: white;" href="#">Watches</a>
+  <hr>
+</div>
+ 
     <li  href="#">Home</li>
     <li  href="#">Deals</li>
     <li  href="#">Flash Sale</li>
-    <li  href="#">Contact Us</li>
+    <li  href="about us.html">Contact Us</li>
     <li  href="#">About Us</li>
 
 
@@ -103,12 +121,20 @@ function()
 <button href="#" class="see">See More</button>
 </section>
 
+<div style="display: flex;margin-bottom: 3%;margin-top: 3%;margin-bottom: 3%;">
+
+  <div style="display: flex;width:50%;background-color: lightgray;margin-right: 20px;margin-left: 20px;"><div style="margin-left:30px;margin-top:40px"><p><b>Electronics</b><br> <i>STARTING AT <b>$270</b></i> <br><b>DISCOVER NOW →</b></p></div><img style="margin-left: 20%;" width="200px" src="png-transparent-home-appliance-kitchen-kettle-mixer-home-appliances-miscellaneous-kitchen-kitchen-appliance.png" alt=""></div>
+  <div style="display: flex;width:50%;background-color: lightgray;margin-right: 20px;"><div style="margin-left:30px;margin-top:40px"><p><b>Furniture</b><br><i>STARTING AT <b>$520</b></i><br><b>DISCOVER NOW →</b></p></div><img style="margin-left: 20%;" width="200px" src="Outdoor-Furniture-PNG-Pic.png" alt=""></div>
+  
+
+ </div>
+
+
 <div class="box">
   <div class="box1">
-    
     <div class="boxes">
       <h5 class="h">Best Shoes</h5>
-      <img class="shoesimg" src="shoes-img9.png">
+      <img class="shoesimg" src="shoes-img5.png">
       <img class="starr" src="stars.png">
       <h2  class="h">$60</h2>
     </div>
@@ -150,157 +176,139 @@ function()
   </div>
 </div>
 
-<!-- 
-<div class="layout_padding gallery_section">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="best_shoes">
-          <p class="best_text">Best Shoes </p>
-          <div class="shoes_icon"><img src="images/shoes-img4.png"></div>
-          <div class="star_text">
-            <div class="left_part">
-              <ul>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                </ul>
-            </div>
-            <div class="right_part">
-              <div class="shoes_price">$ <span style="color: #ff4e5b;">60</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="best_shoes">
-          <p class="best_text">Best Shoes </p>
-          <div class="shoes_icon"><img src="images/shoes-img5.png"></div>
-          <div class="star_text">
-            <div class="left_part">
-              <ul>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                </ul>
-            </div>
-            <div class="right_part">
-              <div class="shoes_price">$ <span style="color: #ff4e5b;">400</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="best_shoes">
-          <p class="best_text">Best Shoes </p>
-          <div class="shoes_icon"><img src="images/shoes-img6.png"></div>
-          <div class="star_text">
-            <div class="left_part">
-              <ul>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                </ul>
-            </div>
-            <div class="right_part">
-              <div class="shoes_price">$ <span style="color: #ff4e5b;">50</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+<div class="feat">
+  <div class="mon">
+    <div><svg id="money" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M252 208C252 196.1 260.1 188 272 188H288C299 188 308 196.1 308 208V276H312C323 276 332 284.1 332 296C332 307 323 316 312 316H264C252.1 316 244 307 244 296C244 284.1 252.1 276 264 276H268V227.6C258.9 225.7 252 217.7 252 208zM512 64C547.3 64 576 92.65 576 128V384C576 419.3 547.3 448 512 448H64C28.65 448 0 419.3 0 384V128C0 92.65 28.65 64 64 64H512zM128 384C128 348.7 99.35 320 64 320V384H128zM64 192C99.35 192 128 163.3 128 128H64V192zM512 384V320C476.7 320 448 348.7 448 384H512zM512 128H448C448 163.3 476.7 192 512 192V128zM288 144C226.1 144 176 194.1 176 256C176 317.9 226.1 368 288 368C349.9 368 400 317.9 400 256C400 194.1 349.9 144 288 144z"/></svg></div>
+    <div><h4><b>MONEY BACK GUARENTEE</b></h5>
+    
+      <p style="margin-top: 7%;">
+        <b>Anything Back With in 3 Days</b>
+        </p></div>
+  </div>
+  <div class="cv">
+  <div><svg class="head" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M191.1 224c0-17.72-14.34-32.04-32-32.04L144 192c-35.34 0-64 28.66-64 64.08v47.79C80 339.3 108.7 368 144 368H160c17.66 0 32-14.36 32-32.06L191.1 224zM256 0C112.9 0 4.583 119.1 .0208 256L0 296C0 309.3 10.75 320 23.1 320S48 309.3 48 296V256c0-114.7 93.34-207.8 208-207.8C370.7 48.2 464 141.3 464 256v144c0 22.09-17.91 40-40 40h-110.7C305 425.7 289.7 416 272 416H241.8c-23.21 0-44.5 15.69-48.87 38.49C187 485.2 210.4 512 239.1 512H272c17.72 0 33.03-9.711 41.34-24H424c48.6 0 88-39.4 88-88V256C507.4 119.1 399.1 0 256 0zM368 368c35.34 0 64-28.7 64-64.13V256.1C432 220.7 403.3 192 368 192l-16 0c-17.66 0-32 14.34-32 32.04L320 335.9C320 353.7 334.3 368 352 368H368z"/></svg></div>
+  <div><h4><b>CUSTOMER SUPPORT</b></h5>
+    <p style="margin-top: 12%;">
+      <b>Call or Email Us 24/7</b>
+      </p>
     </div>
-    <div class="row">
-      <div class="col">
-        <div class="best_shoes">
-          <p class="best_text">Sports Shoes</p>
-          <div class="shoes_icon"><img src="images/shoes-img7.png"></div>
-          <div class="star_text">
-            <div class="left_part">
-              <ul>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                </ul>
-            </div>
-            <div class="right_part">
-              <div class="shoes_price">$ <span style="color: #ff4e5b;">70</span></div>
-            </div>
-          </div>
-        </div>
+  
+  </div>
+  
+  
+  <div class="gv">
+    <div><svg class="shipp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 48C64 21.49 85.49 0 112 0H368C394.5 0 416 21.49 416 48V256H608V352C625.7 352 640 366.3 640 384C640 401.7 625.7 416 608 416H576C576 469 533 512 480 512C426.1 512 384 469 384 416H256C256 469 213 512 160 512C106.1 512 64 469 64 416V288H208C216.8 288 224 280.8 224 272C224 263.2 216.8 256 208 256H16C7.164 256 0 248.8 0 240C0 231.2 7.164 224 16 224H240C248.8 224 256 216.8 256 208C256 199.2 248.8 192 240 192H48C39.16 192 32 184.8 32 176C32 167.2 39.16 160 48 160H272C280.8 160 288 152.8 288 144C288 135.2 280.8 128 272 128H16C7.164 128 0 120.8 0 112C0 103.2 7.164 96 16 96H64V48zM160 464C186.5 464 208 442.5 208 416C208 389.5 186.5 368 160 368C133.5 368 112 389.5 112 416C112 442.5 133.5 464 160 464zM480 368C453.5 368 432 389.5 432 416C432 442.5 453.5 464 480 464C506.5 464 528 442.5 528 416C528 389.5 506.5 368 480 368zM466.7 160H400V96H466.7C483.7 96 499.1 102.7 512 114.7L589.3 192C601.3 204 608 220.3 608 237.3V288H544V237.3L466.7 160z"/></svg></div>
+    <div><h4><b>FREE SHIPPING & RETURNS</b></h5>
+      <p style="margin-top: 12%;">
+        <b>For All Orders Over 399</b>
+        </p>
       </div>
-      <div class="col">
-        <div class="best_shoes">
-          <p class="best_text">Sports Shoes</p>
-          <div class="shoes_icon"><img src="images/shoes-img8.png"></div>
-          <div class="star_text">
-            <div class="left_part">
-              <ul>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                </ul>
-            </div>
-            <div class="right_part">
-              <div class="shoes_price">$ <span style="color: #ff4e5b;">100</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div  class="collection">
-        <div  class="best_shoes">
-          <p class="best_text">Sports Shoes</p>
-          <div class="shoes_icon"><img src="images/shoes-img9.png"></div>
-          <div class="star_text">
-            <div class="left_part">
-              <ul>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                  <li><a href="#"><img src="images/star-icon.png"></a></li>
-                </ul>
-            </div>
-            <div class="right_part">
-              <div class="shoes_price">$ <span style="color: #ff4e5b;">90</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
+    
     </div>
-    <div class="buy_now_bt">
-      <button class="buy_text">Buy Now</button>
+  
+  
+  <div class="fv">
+    <div><svg class="pa" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 32C547.3 32 576 60.65 576 96V128H0V96C0 60.65 28.65 32 64 32H512zM576 416C576 451.3 547.3 480 512 480H64C28.65 480 0 451.3 0 416V224H576V416zM112 352C103.2 352 96 359.2 96 368C96 376.8 103.2 384 112 384H176C184.8 384 192 376.8 192 368C192 359.2 184.8 352 176 352H112zM240 384H368C376.8 384 384 376.8 384 368C384 359.2 376.8 352 368 352H240C231.2 352 224 359.2 224 368C224 376.8 231.2 384 240 384z"/></svg></div>
+    <div><h4><b>SECURE PAYMENT</b></h5>
+      <p style="margin-top: 12%;">
+        <b>We Insure Secure Payment</b>
+        </p>
+      </div>
+    
     </div>
   </div>
-</div> -->
-
 <!-- 
-<div class="sec2">
-  <h2 class="boots">Racing Boots</h2>
-  <h4>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation</h4>
-<div class="text">
-  <div class="racing">
-    <img class="boot1" src="shoes-img6.png">
-    <img class="boot2" src="shoes-img4.png">
-      </div>
-      <div>
-    <h1>Sale</h1>
-    <h1>JOGING</h1>
-    <h1>SHOES</h1>
-    <h1>$ 100</h1>
-    <button href="#" class="see">See More</button>
-      </div>
-</div>
-</div> -->
+  <div style="background-color: #ff4e5b;" class="section_footer">
+    <div class="container">
+      <div class="mail_section">
+        <div class="row">
+          <div class="col-sm-6 col-lg-2">
+            <div><a href="#"><img src="images/footer-logo.png"></a></div>
+          </div>
+          <div class="col-sm-6 col-lg-2">
+            <div class="footer-logo"><img src="images/phone-icon.png"><span class="map_text">(71) 1234567890</span></div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-logo"><img src="images/email-icon.png"><span class="map_text">Demo@gmail.com</span></div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="social_icon">
+              <ul>
+                <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                <li><a href="#"><img src="images/in-icon.png"></a></li>
+                <li><a href="#"><img src="images/google-icon.png"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+        </div> 
+        <div class="footer_section_2">
+          <div class="row">
+              <div class="col-sm-4 col-lg-2">
+                <p class="dummy_text"> ipsum dolor sit amet, consectetur ipsum dolor sit amet, consectetur  ipsum dolor sit amet,</p>
+              </div>
+              <div class="col-sm-4 col-lg-2">
+                <h2 class="shop_text">Address </h2>
+                <div class="image-icon"><img src="images/map-icon.png"><span class="pet_text">No 40 Baria Sreet 15/2 NewYork City, NY, United States.</span></div>
+              </div>
+              <div class="col-sm-4 col-md-6 col-lg-3">
+              <h2 class="shop_text">Our Company </h2>
+              <div class="delivery_text">
+                <ul>
+                  <li>Delivery</li>
+                  <li>Legal Notice</li>
+                  <li>About us</li>
+                  <li>Secure payment</li>
+                  <li>Contact us</li>
+                </ul>
+              </div>
+              </div>
+        <div class="col-sm-6 col-lg-3">
+          <h2 class="adderess_text">Products</h2>
+          <div class="delivery_text">
+                <ul>
+                  <li>Prices drop</li>
+                  <li>New products</li>
+                  <li>Best sales</li>
+                  <li>Contact us</li>
+                  <li>Sitemap</li>
+                </ul>
+              </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h2 class="adderess_text">Newsletter</h2>
+          <div class="form-group">
+                      <input type="text" class="enter_email" placeholder="Enter Your email" name="Name">
+                  </div>
+                  <button class="subscribr_bt">Subscribe</button>
+        </div>
+        </div>
+            </div> 
+        </div>
+    </div>
+  </div>
+<!-- section footer end -->
+ -->
+
+    
+<script>
+
+$(document).ready(function(){
+  $(".cata").click(function(){
+    $(".catahover").toggle();
+  });
+});
+
+
+$(".hamburger").click(function(){
+  $(".navul").toggle();
+});
+</script>
+
+
 
 </body>
 </html>

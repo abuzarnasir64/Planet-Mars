@@ -2,6 +2,7 @@
 *{margin: 0px;
 padding: 0px;}
 nav{display: flex;
+    flex-direction: row;
 width: 100%;}
 .search{height: 7vh;
 width: 40%;
@@ -37,6 +38,18 @@ font-size: xx-large;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 font-weight: 400;}
+.bol{width: 65%;}
+  .ws{background-color: white;
+  width: 40%;
+margin-left: 15%; 
+height: 6vh;
+margin-top: 1.5%;
+border: 1px solid #ff4e5b;
+}
+  select{width: 40%;
+    border: none;
+height: 6vh;}
+
 .navul{display: flex;
 list-style: none;
 background-color: #ff4e5b;
@@ -55,19 +68,20 @@ padding-right: 1%;}
 .cata{position: relative;
 display: inline-block ;}
 .hamburger{display: none;}
- .cata:hover .catahover{display: block;}
- .catahover a:hover{display: block;}
+ /* .cata:hover .catahover{display: block;}
+ .catahover a:hover{display: block;} */
 .catahover{display: none;
      position: absolute;
      z-index: 1;
 color: white;
+text-decoration: none;
 background-color: #ff4e5b;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: large;
 font-weight: 300;
 width: 11%;
 height: 50vh;
-margin-top: 58.7vh;
+margin-top: 58vh;
 margin-left: 1%;
 list-style: none;
 border: 2px solid gray;
@@ -112,6 +126,62 @@ font-weight: 400;
     width: 20%;
 
 }
+#money{width: 45px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 5px;}
+    
+    .head{width: 45px;
+      margin-right: 20px;
+      margin-left: 10px;
+    margin-top: 5px;}
+    .mon{display: flex;
+        border: 1px solid gray;
+        padding: 30px;
+        padding-bottom: 4%;
+        margin-right: 20px;
+        height: 10vh;
+        font-size: large;
+    }
+    .cv{display: flex;
+    border: 1px solid gray;
+    margin-right: 20px;
+    padding: 30px;
+    padding-bottom: 4%;
+    font-size: large;
+height: 10vh;}
+    .fv{display: flex;
+        border: 1px solid gray;
+        font-size: large;
+        padding: 30px;
+        padding-bottom: 4%;
+        height: 10vh;
+        }
+        .gv{display: flex;
+            border: 1px solid gray;
+            font-size: large;
+            margin-right: 20px;
+            height: 10vh;
+            padding: 30px;
+        padding-bottom: 4%;}
+            .shipp{width: 45px;
+              margin-right: 20px;
+            margin-left: 10px;
+            margin-top: 5px;}
+    .feat{display: flex;
+    padding: 15px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;}
+    .dv{display: flex;
+    border: 1px solid gray;
+    }
+    .pa{width: 45px;
+      margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 5px;}
+    
+ body{overflow: ;} 
 .see:hover {
     box-shadow: 0px 1px 21px #ff4e5b;
     background-color: white;
@@ -147,8 +217,7 @@ margin-left: 5%;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: larger;
 font-weight: 400;}
-.shoe2:hover {padding: 6%;}
-.shoe3:hover {padding: 6%;}
+
 .shoe2{box-shadow: 2px 1px 13px 4px rgba(0,0,0,0.54);
     -webkit-box-shadow: 2px 1px 13px 4px rgba(0,0,0,0.54);
     -moz-box-shadow: 2px 1px 13px 4px rgba(0,0,0,0.54);
@@ -192,69 +261,7 @@ margin-left: 45%;
         position: relative;
         padding: 5%;}
     
-/* .hero{background-image: url();} */
-/* .sec2{margin-bottom: 10px;}
-.boot2{position: relative;}
-.boot1{position: absolute;
-margin-right: 5%;} */
-/* 
-.gallery_section {
-    width: 100%;
-    float: left;
-    background-color: #ff4e5b;
-    height: auto;
-}
-.layout_padding {
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-.best_text {
-    width: 100%;
-    float: left;
-    font-size: 14pt;
-    color: #000;
-    text-align: center;
-    margin-left: 0px;
-}
-.best_shoes {
-    width: 100%;
-    float: left;
-    background-color: #ffffff;
-    height: auto;
-    padding: 20px 20px 20px 0px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
-}
-.shoes_icon {
-    width: 100%;
-    float: left;
-    text-align: center;
-    min-height: 220px;
-}
-.star_text {
-    width: 100%;
-    float: left;
-    
-}
-.collection{justify-content: space-between;}
-.col{margin-left: 4%;
-margin-right: 4%;} */
+
 .starr{width:100px;
     margin-top: 3%;
     margin-left: 22%;
@@ -279,6 +286,7 @@ flex-direction: column;}
     margin-top: 2%;
 margin-left: 32%;}
 .shoesimg{margin-top: 3%;
+    padding: 3px;
 margin-left: 10%;}
  @media (max-width:452px) {
   .hamburger{display: block;
@@ -313,7 +321,10 @@ margin-left: 10%;}
     .hamburger{margin-bottom: 2%;}
 }
 @media(max-width:452px){
-
+.navul{
+    display: flex;
+    flex-direction: column;}
+li{border-right: none;}
 }
 
 @media (max-width:664px){
@@ -339,6 +350,7 @@ margin-left: 10%;}
 } */
 @media (max-width:744px){
     .navul{font-size: larger;}
+   
 }
 @media (max-width:940px) {
     .cartbtn{display: none;}
@@ -351,8 +363,27 @@ margin-right: 2%;}
    .user{margin-top: 2%;}
 
 }
+@media (max-width:1000px){
+.oneshoe{}
+}
+@media (max-width:1090px){
+    .banner{height: 60vh;}
+  .hero  .oneshoe{
+        width: 3%;
+    }
 
+@media (max-width:1208px){
+.hero .oneshoe{width: 32%;
+height: 70%;}
+}
 
-@media (max-width:1190px){
-
+@media (max-width:1344px){
+    .hero{width: 100%;
+    height:150vh;}
+    .oneshoe{width: 2%;
+    }
+    .banner{font-size: medium;}
+    .buybt{font-size: small;}
+    .morebt{font-size: small;}
+    
 }
